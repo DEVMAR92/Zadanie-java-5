@@ -8,4 +8,7 @@ class Triangle {
         this.secondSide = secondSide;
         this.thirtSide = thirtSide;
     }
+    double calculatePerimeter(){
+        return firstSide + secondSide + thirtSide;
+    }
 }

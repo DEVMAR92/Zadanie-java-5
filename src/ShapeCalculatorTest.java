@@ -8,6 +8,7 @@ class ShapeCalculatorTest {
 
         ShapeCalculator shapeCalculator = new ShapeCalculator();
 
+        /*
         double circleAreaResult = shapeCalculator.circleArea(circle);
         double squareAreaResult = shapeCalculator.squareArea(square);
         double trianglePerimeterResult = shapeCalculator.trianglePerimeter(triangle);
@@ -17,6 +18,16 @@ class ShapeCalculatorTest {
         System.out.println(squareAreaResult);
         System.out.println(trianglePerimeterResult);
         System.out.println(rectPerimeterResult);
+        */
 
+        double squareArea = square.calculateArea();
+        double circleArea = circle.calculateArea();
+        double rectanglePerimeter = rectangle.calculatePerimeter();
+        double trianglePerimeter = triangle.calculatePerimeter();
+
+        System.out.println("Wynik pola kwadratu: " + squareArea);
+        System.out.println("Wynik pola koła: " + circleArea);
+        System.out.println("Wynik obwodu prostokąta: " + rectanglePerimeter);
+        System.out.println("Wynik obwodu trójkąta: " + trianglePerimeter);
     }
 }

@@ -6,4 +6,7 @@ class Rectangle {
         this.firstSide = firstSide;
         this.secondSide = secondSide;
     }
+    double calculatePerimeter(){
+        return firstSide + secondSide;
+    }
 }
